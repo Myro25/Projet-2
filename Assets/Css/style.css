@@ -468,6 +468,11 @@ footer li {
         padding-bottom: 25px;
     }
 
+    header nav ul {
+        display: flex;
+        width: 100%;
+    }
+
     header nav li {
         width: 100%;
         text-align: center;
