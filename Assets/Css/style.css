@@ -54,6 +54,10 @@ header nav {
     height: 100%;
 }
 
+header nav ul {
+    display: flex;
+}
+
 header nav li {
     border-top: transparent solid 2px;
     padding: 20px;
