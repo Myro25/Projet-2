@@ -227,13 +227,13 @@ main {
     margin-bottom: 8px;
 }
 
-.hebergements ul {
+.hebergements .liste-hebergement {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
-.hebergements ul li a {
+.hebergements .liste-hebergement article a {
     position: relative;
     display: flex;
     gap: 1px;
@@ -245,12 +245,12 @@ main {
     min-height: 13em;
 }
 
-.hebergements ul li a .BoxImg {
+.hebergements .liste-hebergement article a .BoxImg {
     height: 8em;
     width: 100%;
 }
 
-.hebergements ul li a .BoxImg img {
+.hebergements .liste-hebergement article a .BoxImg img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -555,39 +555,39 @@ footer li {
     }
 
 
-    .hebergements ul {
+    .hebergements .liste-hebergement {
         display: flex;
         flex-direction: column;
         width: 100%;
         margin: 0;
     }
 
-    .hebergements li {
+    .hebergements article {
         width: 85%;
         margin-left: 30px;
     }
 
-    .hebergements ul :nth-child(1) {
+    .hebergements .liste-hebergement :nth-child(1) {
         order: 1;
     }
 
-    .hebergements ul :nth-child(2) {
+    .hebergements .liste-hebergement :nth-child(2) {
         order: 6;
     }
 
-    .hebergements ul :nth-child(3) {
+    .hebergements .liste-hebergement :nth-child(3) {
         order: 3;
     }
 
-    .hebergements ul :nth-child(4) {
+    .hebergements .liste-hebergement :nth-child(4) {
         order: 4;
     }
 
-    .hebergements ul :nth-child(5) {
+    .hebergements .liste-hebergement :nth-child(5) {
         order: 2;
     }
 
-    .hebergements ul :nth-child(6) {
+    .hebergements .liste-hebergement :nth-child(6) {
         order: 5;
     }
 
@@ -595,13 +595,13 @@ footer li {
 
 
 
-    .hebergements ul li a {
+    .hebergements .liste-hebergement article a {
         min-height: 12em;
     }
 
-    .hebergements ul li a .BoxImg {}
+    .hebergements .liste-hebergement article a .BoxImg {}
 
-    .hebergements ul li a .BoxImg img {
+    .hebergements .liste-hebergement article a .BoxImg img {
         height: 85%;
         width: 100%;
         object-fit: cover;
